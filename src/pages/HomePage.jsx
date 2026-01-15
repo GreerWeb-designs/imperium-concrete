@@ -319,7 +319,8 @@ export default function HomePage({ onFastQuoteOpen }) {
           <div className="aspect-video overflow-hidden rounded-3xl border border-slate-200 shadow-lg">
             <iframe
               className="h-full w-full"
-              src="https://www.youtube.com/embed/q9LtA3GxYNg"
+              src="https://www.youtube-nocookie.com/embed/q9LtA3GxYNg"
+
               title="Imperium Concrete Promo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
