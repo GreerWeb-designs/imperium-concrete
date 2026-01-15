@@ -85,7 +85,7 @@ export default function PatiosPage() {
           </h2>
           <p className="mt-3 max-w-4xl text-sm text-slate-700 md:text-base">
             We focus on layout, clean edges, and transitions so the patio fits your
-            space naturally—and stays solid for years.
+            space naturally and stays solid for years.
           </p>
         </div>
       </section>
