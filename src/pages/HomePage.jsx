@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 // If you have these assets in your new project, import them.
 // If you don’t yet, comment them out and replace with a placeholder image.
-import heroCover from "../assets/Cover2.jpg";
+import heroCover from "../assets/Cover2.webp";
 import Seo from "../components/Seo";
 
 
