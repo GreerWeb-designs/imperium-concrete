@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import FastQuoteModal from "./components/FastQuoteModal";
 import Footer from "./components/Footer";
 
+
+import Privacy from "./pages/privacy-policy";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ServiceAreaPage from "./pages/ServiceAreaPage";
@@ -75,6 +77,8 @@ export default function App() {
 
         <Route path="/reviews" element={<ReviewsPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
+        
       </Routes>
 
       <Footer />
