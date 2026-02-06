@@ -4,8 +4,8 @@ import React from "react";
 export default function PrivacyPolicy() {
   // TODO: Replace with Imperium Concrete contact info (or pull from your site config)
   const COMPANY_NAME = "Imperium Concrete";
-  const CONTACT_EMAIL = "info@imperiumconcrete.com"; // change if needed
-  const CONTACT_PHONE = "(864) 000-0000"; // change if needed
+  const CONTACT_EMAIL = "sales@imperiumconcrete.com"; // change if needed
+  const CONTACT_PHONE = "(864) 447-6200"; // change if needed
 
   return (
     <main className="min-h-screen bg-white text-slate-900">
