@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import FastQuoteModal from "./components/FastQuoteModal";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Privacy from "./pages/privacy-policy";
 import HomePage from "./pages/HomePage";
@@ -26,6 +27,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900">
+      <ScrollToTop />
       <Navbar onFastQuoteOpen={openFastQuote} />
 
       <Routes>
