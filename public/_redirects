@@ -1,0 +1,4 @@
+# Cloudflare Pages: serve prerendered per-route files when they exist; fall back
+# to the SPA shell for any route without a prerendered file so client-side
+# routing still works on direct hits.
+/*    /index.html   200
