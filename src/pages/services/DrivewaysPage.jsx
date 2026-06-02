@@ -1,10 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Seo from "../../components/Seo";
+import { getService, buildServiceJsonLd } from "../../data/services";
 
+const SERVICE = getService("driveways");
 
 export default function DrivewaysPage() {
   return (
     <main className="bg-white">
+      <Seo
+        title={SERVICE.seoTitle}
+        description={SERVICE.seoDescription}
+        path={`/services/${SERVICE.slug}`}
+        jsonLd={buildServiceJsonLd(SERVICE)}
+      />
       <section className="border-b border-slate-200 bg-slate-50">
         <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">

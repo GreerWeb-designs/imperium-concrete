@@ -66,6 +66,7 @@ export default function HomePage({ onFastQuoteOpen }) {
       <Seo
         title="Imperium Concrete | Driveways, Patios & Slabs | Upstate SC"
         description="Imperium Concrete pours driveways, patios, slabs, and retaining walls across Greenville and the Upstate of South Carolina. Request a fast quote today."
+        path="/"
       />
       <section
         className="relative border-b border-slate-200"

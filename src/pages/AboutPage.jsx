@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Seo from "../components/Seo";
 
 // Optional: swap these imports to match whatever images you actually have.
 // If you don’t have them yet, you can comment them out and keep placeholders.
@@ -10,6 +11,11 @@ import imperiumpic1 from "../assets/Imperium-Driveway-pic1.jpg";
 export default function AboutPage() {
   return (
     <main className="bg-white">
+      <Seo
+        title="About Imperium Concrete | Upstate SC Concrete Contractor"
+        description="Imperium Concrete is a locally owned concrete contractor serving Greenville and the Upstate of South Carolina with driveways, patios, slabs, sidewalks, and retaining walls."
+        path="/about"
+      />
       {/* TOP HERO / INTRO */}
       <section className="border-b border-slate-200 bg-slate-50">
         <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">

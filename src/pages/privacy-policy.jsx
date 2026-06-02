@@ -1,5 +1,6 @@
 // src/pages/PrivacyPolicy.jsx
 import React from "react";
+import Seo from "../components/Seo";
 
 export default function PrivacyPolicy() {
   // TODO: Replace with Imperium Concrete contact info (or pull from your site config)
@@ -9,6 +10,11 @@ export default function PrivacyPolicy() {
 
   return (
     <main className="min-h-screen bg-white text-slate-900">
+      <Seo
+        title="Privacy Policy | Imperium Concrete"
+        description="How Imperium Concrete collects, uses, and protects information submitted through our website."
+        path="/privacy-policy"
+      />
       <section className="mx-auto max-w-4xl px-5 py-12">
         <header className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight">Privacy Policy</h1>

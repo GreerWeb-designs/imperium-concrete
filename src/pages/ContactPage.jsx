@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Seo from "../components/Seo";
 
 export default function ContactPage() {
   useEffect(() => {
@@ -83,6 +84,11 @@ export default function ContactPage() {
 
   return (
     <main className="bg-white">
+      <Seo
+        title="Contact Imperium Concrete | Request a Concrete Quote in Upstate SC"
+        description="Request a quote from Imperium Concrete for driveways, patios, slabs, sidewalks, and retaining walls across Greenville and the Upstate of South Carolina."
+        path="/contact"
+      />
       <section className="border-b border-slate-200 bg-slate-50">
         <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">

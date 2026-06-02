@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import Seo from "../components/Seo";
 
 const REVIEWS = [
   {
@@ -97,6 +98,11 @@ export default function ReviewsPage() {
 
   return (
     <main className="bg-white">
+      <Seo
+        title="Reviews | Imperium Concrete — Greenville & Upstate SC"
+        description="Real customer reviews for Imperium Concrete: driveways, patios, slabs, and concrete work across Greenville and the Upstate of South Carolina."
+        path="/reviews"
+      />
       {/* HERO */}
       <section
         className="relative border-b border-slate-200"
