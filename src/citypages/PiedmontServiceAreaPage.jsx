@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import imperiumpiedmont from "../assets/ImperiumPiedmont.jpg";
+import imperiumpiedmont from "../assets/ImperiumPelzer.jpg";
 
 
 export default function PiedmontServiceAreaPage() {
