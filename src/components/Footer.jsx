@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { cities } from "../data/cities";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -138,6 +139,25 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Service Areas — links every city page site-wide so none are orphaned */}
+        <div className="mt-10 border-t border-slate-200 pt-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
+            Service Areas
+          </p>
+          <ul className="mt-4 grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-3 md:grid-cols-4">
+            {cities.map((c) => (
+              <li key={c.slug}>
+                <Link
+                  to={`/service-area/${c.slug}`}
+                  className="text-slate-600 hover:text-amber-600"
+                >
+                  {c.name}, SC
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         {/* Bottom Bar */}
         <div className="mt-10 border-t border-slate-200 pt-6">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
@@ -149,9 +169,6 @@ export default function Footer() {
               <div className="flex flex-wrap gap-4 text-xs">
                 <Link to="/privacy-policy" className="text-slate-500 hover:text-amber-600">
                   Privacy
-                </Link>
-                <Link to="/terms" className="text-slate-500 hover:text-amber-600">
-                  Terms
                 </Link>
                 <a
                   href="tel:18644476200"
