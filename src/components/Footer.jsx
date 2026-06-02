@@ -147,7 +147,7 @@ export default function Footer() {
 
             <div className="flex items-center justify-between gap-4 md:justify-end">
               <div className="flex flex-wrap gap-4 text-xs">
-                <Link to="/privacy" className="text-slate-500 hover:text-amber-600">
+                <Link to="/privacy-policy" className="text-slate-500 hover:text-amber-600">
                   Privacy
                 </Link>
                 <Link to="/terms" className="text-slate-500 hover:text-amber-600">

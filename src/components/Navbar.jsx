@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import imperiumLogo from "../assets/imperium-logo.png";
+import imperiumLogo from "../assets/favicon.webp";
 
 const services = [
   { label: "Driveways", to: "/services/driveways" },
