@@ -187,7 +187,7 @@ export default function Footer() {
                   aria-label="Facebook"
                   className="rounded-full border border-slate-200 bg-white p-2 text-slate-600 shadow-sm hover:text-amber-600"
                 >
-                   <img src="./images/facebook.png"
+                   <img src="/images/facebook.png"
                    width="32" height="32" alt="" />
                 </a>
                 <a
@@ -197,7 +197,7 @@ export default function Footer() {
                   aria-label="Instagram"
                   className="rounded-full border border-slate-200 bg-white p-2 text-slate-600 shadow-sm hover:text-amber-600"
                 >
-                  <img src="./images/instagram.jpg"
+                  <img src="/images/instagram.jpg"
                     width="32" height="32"
                     alt="" />
                 </a>

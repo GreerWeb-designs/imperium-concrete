@@ -305,7 +305,7 @@ export default function HomePage({ onFastQuoteOpen }) {
           </div>
 
           <div className="flex h-65 items-center justify-center overflow-hidden rounded-3xl border border-amber-200 bg-white shadow-sm md:h-80">
-            <span className="text-sm text-slate-400"><img src="./images/Imperium-cover.jpg" alt="" /></span>
+            <span className="text-sm text-slate-400"><img src="/images/Imperium-cover.jpg" alt="" /></span>
           </div>
         </div>
       </section>

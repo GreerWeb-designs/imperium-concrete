@@ -219,7 +219,7 @@ export default function AboutPage() {
             {/* Card 2 */}
             <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
               <div className="aspect-4/3 bg-slate-200 flex items-center justify-center text-xs text-slate-500">
-                <img src="./images/IMG_0350.jpg" alt="" />
+                <img src="/images/IMG_0350.jpg" alt="" />
               </div>
               <div className="px-4 py-3 text-xs text-slate-700">
                 <p className="font-semibold">Stamped Patio w/color</p>
@@ -232,7 +232,7 @@ export default function AboutPage() {
             {/* Card 3 */}
             <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
               <div className="aspect-4/3 bg-slate-200 items-center justify-center text-xs text-slate-500">
-                <img src="./images/IMG_1872_asp.jpg" alt="" />
+                <img src="/images/IMG_1872_asp.jpg" alt="" />
               </div>
               <div className="px-4 py-3 text-xs text-slate-700">
                 <p className="font-semibold">Monolithic Slab Prep</p>
